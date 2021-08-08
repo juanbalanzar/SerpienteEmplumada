@@ -1428,11 +1428,12 @@ a:hover,a:focus{
 /*Brand*/
 .list-brand {
     background-color: #706960;
-    background-image: url("../images/home_2/bg-partner.jpg");
+    background-image: url("../images/bg-partner.jpg");
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: auto;
     height: 108px;
-    margin-top: 70px;
+    margin-top: 0px;
 }
 
 .item-brand {
@@ -2805,4 +2806,109 @@ a:hover,a:focus{
     color: #CFB174;
 }
 
-/* Aresanos_tab_end */
+.footer-quick-search {
+    margin-top: 35PX;
+    margin-bottom: 0PX;
+    background: #292929 none repeat scroll 0 0;
+    padding: 20px 0;
+}
+.content-quick-search > label {
+    color: #fff;
+    margin: 0;
+}
+.content-quick-search {
+    text-transform: uppercase;
+}
+.content-quick-search > a {
+    color: #b4b2b0;
+    margin-left: 27px;
+}
+.content-quick-search > a:hover{
+	color:#fff;
+}
+.box-ads{
+    background-color: #333;
+    margin-top: 30px;
+    height: 200px;
+}
+.box-ads-items{
+width: 100%;
+float: left;
+
+
+}
+.box-ads-item1{
+    position: relative;
+    float: left;
+}
+.box-ads-item{
+    position: relative;
+    float: left;
+}
+@media (max-width: 500px) {
+.box-ads-item{
+display: none;
+}
+
+}
+.box-ads-item-thumb{
+    width: 100%;
+    position: relative;
+float: left;
+
+}
+.box-ads-info{
+    margin-left: 20px;
+    float: left;
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.box-ads-info h5{
+        color: #CFB174;
+
+}
+.box-ads-info img{
+
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.box-ads-button{
+float: right;
+    position: absolute;
+
+    background: #fff none repeat scroll 0 0;
+    color: #333;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 55px;
+    text-transform: uppercase;
+    width: 190px;
+	transition:all 0.5s ease-out 0s;
+    text-align: center;
+
+}
+.box-ads-button a{
+
+    text-transform: uppercase;
+
+    color: #333;
+}
+
+.booking-ads{
+    color: #C9C9B6;
+    display: inline-block;
+    font-family: "Poiret One",cursive;
+    font-size: 90px;
+    margin: -20px 0px 0;
+    position: relative;
+
+}
+.boxt-img{
+
+}
+
+

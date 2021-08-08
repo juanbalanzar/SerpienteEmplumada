@@ -2619,7 +2619,7 @@ tr.summary-details-excluded {
 }
 .col-left .block-special .slider-inner .container-slider .wrap-item .item {
   float: left;
-  width: 50%;
+  width: 100%;
   padding: 0 5px;
   margin-top: 10px;
   /*=================================inner==========================*/
