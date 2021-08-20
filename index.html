@@ -20,16 +20,18 @@
     <link rel="stylesheet" type="text/css" href="css/theme.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
                             <script>
-                        window.onscroll = function() {myFunction()};
+                                window.onscroll = function() {
+                                    myFunction()
+                                };
 
-function myFunction() {
-  if (document.body.scrollTop > 35 || document.documentElement.scrollTop > 35) {
-    document.getElementById("myImg").className = "carrito-fix";
-  } else {
-      document.getElementById("myImg").className = "carrito";
-  }
-}
-                        </script>
+                                function myFunction() {
+                                    if (document.body.scrollTop > 35 || document.documentElement.scrollTop > 35) {
+                                        document.getElementById("myImg").className = "carrito-fix";
+                                    } else {
+                                        document.getElementById("myImg").className = "carrito";
+                                    }
+                                }
+                            </script>
     </head>
 
 <body>
