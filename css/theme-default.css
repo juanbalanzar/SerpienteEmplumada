@@ -522,7 +522,7 @@ button:hover {
 .wrap-new-sale .new-item,
 .wrap-new-sale .sale-item {
   float: left;
-  width: 36px;
+  width: 45px;
   height: 15px;
   color: #fff;
   line-height: 14px;
@@ -1138,7 +1138,7 @@ button:hover {
   text-align: left;
 }
 .main {
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: left;
 }
 /* Form Validation */
@@ -1496,7 +1496,7 @@ tr.summary-details-excluded {
   float: left;
 }
 .rating-box .rating {
-  background: url("images/bkg_rating.png") repeat-x scroll 0px 100% transparent;
+  background: url("/images/bkg_rating.png") repeat-x scroll 0px 100% transparent;
   height: 100%;
   left: 0;
   position: absolute;
@@ -3371,7 +3371,7 @@ tr.summary-details-excluded {
   display: inline-block;
   width: 160px;
   height: 40px;
-  background: #ffc229;
+  background: #dbb371;
   text-align: center;
   padding: 0;
   font-size:14px;
@@ -3385,7 +3385,7 @@ tr.summary-details-excluded {
 .products-grid .item .inner .product-info .btn-cart:hover,
 .products-grid .item .inner .product-info .btn-update:hover,
 .products-grid .item .inner .product-info .btn-pro-config:hover {
-  background: #ffa200;
+  background: #131e29;
 }
 .block-buyer-protec {
   padding: 18px 20px 18px 90px;
@@ -3416,7 +3416,7 @@ tr.summary-details-excluded {
 .block-buyer-protec .inner .icart:before {
   content: "\f07a";
   font-family: "FontAwesome";
-  color: #ffc229;
+  color: #dbb371;
   font-size: 18px;
   position: absolute;
   top: 13px;
@@ -3436,7 +3436,7 @@ tr.summary-details-excluded {
   font-size: 128.57%;
   text-transform: capitalize;
   font-weight: bold;
-  color: #ffc229;
+  color: #dbb371;
 }
 .block-buyer-protec .inner ul {
   float: left;
@@ -4084,8 +4084,8 @@ tr.summary-details-excluded {
 }
 .product-view .product-shop .box-left .box-style ul li.first {
   color: #bebebe;
-  min-width: 86px;
-  padding-left: 10px;
+  min-width: 50px;
+  padding-left: 5px;
 }
 .product-view .product-shop .box-left .box-style ul li.last {
   border: 1px solid #eaeaec;
@@ -4389,7 +4389,7 @@ tr.summary-details-excluded {
   width: 160px;
   height: 40px;
   line-height: 40px;
-  background: #ffc229;
+  background: #dbb371;
   text-align: center;
   padding: 0;
   font-size:14px;
@@ -4414,7 +4414,7 @@ tr.summary-details-excluded {
   float: left;
   height: 34px;
   line-height: 34px;
-  margin: 0 13px;
+  margin: 0 5px;
 }
 .product-view .product-shop .box-left .add-to-links li a {
   font-size:13px;

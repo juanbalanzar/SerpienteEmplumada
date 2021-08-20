@@ -18,7 +18,19 @@
     <link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
     <link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.css" />
     <link rel="stylesheet" type="text/css" href="css/theme.css" media="all" />
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" /> </head>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="all" />
+                            <script>
+                        window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 35 || document.documentElement.scrollTop > 35) {
+    document.getElementById("myImg").className = "carrito-fix";
+  } else {
+      document.getElementById("myImg").className = "carrito";
+  }
+}
+                        </script>
+    </head>
 
 <body>
     <div class="wrap">
@@ -64,36 +76,112 @@
                                 <label>Llámanos</label>
                                 <h3 class="phone-number">Lada sin costo: (+00) 66 55 819</h3> </div>
                         </div>
-                        <div class="col-md-4 col-sm-4 col-xs-6">
-                            <div class="top-cart block-cart box">
-                                <a href="#">
-                                    <h2>Carrito</h2>
-                                    <p>0 Artículos(s) - $0.00</p>
-                                </a>
-                                <div class="block-content box-inner">
-                                    <div class="inner">
-                                        <p class="block-subtitle">Artículo(s) añadido(s)</p>
-                                        <ol class="mini-products-list" id="cart-sidebar">
-                                            <li class="item odd">
-                                                <a class="product-image" href="#"> <img width="70" height="84" alt="" src="images/img-cart.gif"> </a> <a class="btn-remove" href="">X</a> <a class="btn-edit" href="#">Editar</a>
-                                                <div class="product-details">
-                                                    <p class="product-name"> <a href="#">Bath Minerals and Salt</a> </p> <span class="price">$25.00</span> <strong>1</strong> </div>
-                                            </li>
-                                            <li class="item last even">
-                                                <a class="product-image" href="#"> <img width="70" height="84" alt="" src="images/img-cart.gif"> </a> <a class="btn-remove" href="#">X</a> <a class="btn-edit" href="#">Edita</a>
-                                                <div class="product-details">
-                                                    <p class="product-name"> <a href="#">Large Camera Bag</a> </p> <span class="price">$20.00</span> <strong>1</strong> </div>
-                                            </li>
-                                        </ol>
-                                        <div class="summary">
-                                            <p class="subtotal"> <span class="label">Subtotal:</span> <span class="price">$45.00</span> </p>
-                                        </div>
-                                        <div class="actions">
-                                            <div class="a-inner"> <a href="#" class="btn-mycart">Ver carrito</a> <a class="btn-checkout" href="#">Checkout</a> </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div id="myImg" class="carrito">
+                        <div class="top-carrito">
+                        							<a href="#">
+								<h2>CARRITO</h2>
+								<p>31 Item(s) - $30,000.00</p>
+							</a>
+           <div class="carrito-desp carrito-desp-inn">
+               <div class="carrito-desp-inner">
+               <p class="carrito-subt">Artículo(s) añadido</p>
+               									<ol id="cart-sidebar">
+										<li class="item odd">
+											<a class="product-image" href="#">
+											<img width="70" height="84" alt="" src="images/img-cart.gif">
+											</a>
+											<a class="btn-removex" href="">X</a>
+											<a class="btn-edit" href="#">Edit</a>
+											<div class="product-details">
+												<p class="product-name">
+													<a href="#">Bath Minerals and Salt</a>
+												</p>
+												<span class="price">$25.00</span>
+												<strong>1</strong>
+											</div>
+										</li>
+
+										<li class="item last even">
+											<a class="product-image" href="#">
+											<img width="70" height="84" alt="" src="images/img-cart.gif">
+											</a>
+											<a class="btn-remove" href="#">X</a>
+											<a class="btn-edit" href="#">Edit</a>
+											<div class="product-details">
+												<p class="product-name">
+													<a href="#">Large Camera Bag</a>
+												</p>
+												<span class="price">$20.00</span>
+												<strong>1</strong>
+											</div>
+										</li>
+									</ol>
+
+               </div>
+           </div>
+
+
+
+
+                         </div>
+
+                        <!--
+                       <div class="col-md-4 col-sm-4 col-xs-6">
+						<div class="top-cart block-cart box">
+							<a href="#">
+								<h2>shopping Cart</h2>
+								<p>0 Item(s) - $0.00</p>
+							</a>
+							<div class="block-content box-inner">
+								<div class="inner">
+									<p class="block-subtitle">Recently added item(s)</p>
+									<ol class="mini-products-list" id="cart-sidebar">
+										<li class="item odd">
+											<a class="product-image" href="#">
+											<img width="70" height="84" alt="" src="images/home_1/img-cart.gif">
+											</a>
+											<a class="btn-remove" href="">X</a>
+											<a class="btn-edit" href="#">Edit</a>
+											<div class="product-details">
+												<p class="product-name">
+													<a href="#">Bath Minerals and Salt</a>
+												</p>
+												<span class="price">$25.00</span>
+												<strong>1</strong>
+											</div>
+										</li>
+										<li class="item last even">
+											<a class="product-image" href="#">
+											<img width="70" height="84" alt="" src="images/home_1/img-cart.gif">
+											</a>
+											<a class="btn-remove" href="#">X</a>
+											<a class="btn-edit" href="#">Edit</a>
+											<div class="product-details">
+												<p class="product-name">
+													<a href="#">Large Camera Bag</a>
+												</p>
+												<span class="price">$20.00</span>
+												<strong>1</strong>
+											</div>
+										</li>
+									</ol>
+									<div class="summary">
+										<p class="subtotal">
+											<span class="label">Subtotal:</span>
+											<span class="price">$45.00</span>
+										</p>
+									</div>
+									<div class="actions">
+										<div class="a-inner">
+											<a href="#" class="btn-mycart">view my cart</a>
+											<a class="btn-checkout" href="#">Checkout</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+                       -->
                         </div>
                     </div>
                 </div>
@@ -339,11 +427,17 @@
                                 <li class="item-designer">
                                     <a href="#" class="designer-thumb"> <img src="images/page1-img4.jpg" alt="" /> </a>
                                     <h3><a href="#">GAEA</a></h3> </li>
+                                    <li class="item-designer">
+                                    <a href="#" class="designer-thumb"> <img src="images/page1-img7.jpg" alt="" /> </a>
+                                    <h3><a href="#">JT</a></h3> </li>
                             </ul> <a href="#" class="see-all-designer">Ver todos </a> </div>
                     </div>
                 </div>
             </div>
             <!-- End Banner Slider -->
+
+
+
             <!-- start_banner_grid -->
             <div class="banner-grid-adv">
                 <div class="clearfix">
@@ -382,6 +476,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="banner-grid-right">
                         <div class="grid-image-box">
                             <a href="#"><img src="images/ad_08.png" alt="" /></a>
@@ -393,9 +488,22 @@
                                 <h3>- gaea -</h3> </div>
                         </div>
                     </div>
+
                 </div>
             </div>
             <!-- end_banner_grid -->
+
+                        <!-- grid-photos
+            <div class="gridx-bannerx">
+                <div class="flexboxx-item flexboxx-items-1"> </div>
+                <div class="flexboxx-item flexboxx-items-2"></div>
+                <div class="flexboxx-item flexboxx-items-3"></div>
+
+            </div>
+
+
+         End grid-photos -->
+
             <div class="list-product-slider">
                 <div class="container">
                     <div class="row">

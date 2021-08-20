@@ -30,6 +30,15 @@ a:hover,a:focus{
 	position:relative;
 	z-index:99;
 }
+.page-header{
+    position: absolute;
+    background-image: url("../images/bgheader2.png");
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+	background-repeat:non-repeat;
+	background-position:center center;
+    margin-top: 0;
+}
 .top-support li a {
     color: #bbb;
     display: block;
@@ -102,6 +111,184 @@ a:hover,a:focus{
     padding-left: 40px;
     width: 250px;
 }
+/* CARRITO */
+.carrito {
+    display: flex;
+    height: 90px;
+    float: right;
+    align-items: center;
+
+}
+.top-carrito {
+    position: relative;
+    background: rgba(0, 0, 0, 0) url("../images/icon-shop.png") no-repeat scroll left top;
+    float: right;
+    padding-left: 50px;
+}
+.carrito h2{
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.carrito p{
+    color: #fff;
+}
+.carrito-fix{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    border-radius: 10px;
+    width: 16%;
+    height: 90px;
+    background: rgba(19, 30, 41, 0.9);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.carrito-fix h2{
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    text-transform: uppercase;
+}
+.carrito-fix p{
+    color: #fff;
+}
+@media only screen and (max-width:700px){
+    .carrito {
+
+    float: left;
+    width: 50%;
+    height: 90px;
+}
+.carrito h2{
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+    text-transform: uppercase;
+}
+    .carrito p{
+    font-size: 10px;
+    color: #fff;
+}
+    .carrito-fix{
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    border-radius: 10px;
+    width: 46%;
+    height: 70px;
+    background: rgba(19, 30, 41, 0.9);
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+    .carrito-fix h2{
+    color: #fff;
+    font-size: 12px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+   .carrito-fix p{
+    color: #fff;
+    font-size: 10px;
+}
+    .flexboxx-item{
+        width: 100%;
+    }
+}
+
+
+/* END CARRITO */
+
+.carrito-desp{
+    /*background: rgba(19, 30, 41, 0.9); */
+    float: left;
+    right: 0px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 3px 0px;
+    opacity: 0;
+    position: absolute;
+    top: 50px;
+    visibility:visible;
+    z-index: 999;
+    margin: 30px 0px 0px;
+    background: none 0px 0px repeat scroll rgb(255, 255, 255);
+    transition: all 0.5s ease-out 0s;
+}
+
+.carrito:hover .carrito-desp{
+    visibility: visible;
+    margin: 0;
+    opacity: 1;
+}
+
+.carrito-desp-inn{
+    padding: 24px 0 0 5px;
+    width: 290px;
+} */
+.carrito-desp-inner{
+    float: left;
+    width: 100%;
+    background: none 0px 0px repeat scroll rgb(255, 255, 255);
+    padding: 15px 20px;
+}
+.carrito-desp-inner .carrito-subt {
+    font-size: 14px;
+    color: gray;
+    text-transform: uppercase;
+}
+.carrito-desp-inner ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.carrito-desp-inner .btn-removex{
+    font-size: 14px;
+    height: 15px;
+    left: 5px;
+    position: absolute;
+    text-indent: -9999em;
+    top: 58px;
+    width: 15px;
+}
+
+.carrito-desp-inner .btn-removex::before{
+color: rgb(102, 102, 102);
+    content: "";
+    font-family: FontAwesome;
+    left: 0px;
+    position: absolute;
+    text-indent: 0px;
+    top: 0px;
+}
+
+/*
+
+
+
+@media only screen and (max-width:700px){
+
+
+
+
+
+
+
+}
+
+
+.carrito-fix:hover .carrito-desp{
+    visibility: visible;
+        width: 300px;
+    height: 300px;
+}
+
+*/
 .top-cart>a{
 	display:inline-block;
 }
@@ -434,7 +621,8 @@ a:hover,a:focus{
     margin-bottom: 10px;
 }
 .header-nav {
-    /* border-bottom: 1px solid rgba(0, 0, 0, 0.3); */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(19, 30, 41, 0.5);
 }
 .header-nav .search-form.search-form2 > input[type="text"] {
     background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
@@ -591,8 +779,37 @@ a:hover,a:focus{
     float: left;
     margin-top: -180px;
     position: relative;
-    width: 100%;
 }
+
+
+
+
+
+.gridx-bannerx{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+}
+.flexboxx-item {
+    margin: 0px;
+    border: 3px solid #dfdfdf;
+    min-width: 50%;
+    float: left;
+
+
+}
+.flexboxx-items-1{
+    min-height: 300px;
+}
+.flexboxx-items-2{
+    min-height: 200px;
+}
+.flexboxx-items-3{
+    min-height: 300px;
+}
+
 /*Product Slider*/
 .single-slider {
     border-color: #333 #eee #eee;
@@ -2738,7 +2955,7 @@ a:hover,a:focus{
 /*List Design*/
 .list-designer {
     background: rgba(0, 0, 0, 0) url("../images/parallax_01.png") no-repeat scroll center top;
-	padding:70px 0;
+	padding:70px 0px;
 	margin-top:0px;
 }
 .containerx {
@@ -2759,7 +2976,7 @@ a:hover,a:focus{
 .content-list-designer > label {
     color: #fff;
     display: inline-block;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: normal;
     margin-right: 45px;
     margin-top: 55px;
@@ -2781,10 +2998,10 @@ a:hover,a:focus{
     display: inline-block;
     height: 40px;
     line-height: 40px;
-    margin-left: 45px;
+    margin-left: 40px;
     margin-top: 55px;
     text-transform: uppercase;
-    width: 190px;
+    width: 150px;
 	transition:all 0.5s ease-out 0s;
 }
 .designer-thumb {
