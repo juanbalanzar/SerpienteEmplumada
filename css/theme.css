@@ -269,7 +269,7 @@ color: rgb(102, 102, 102);
 }
 .marco{
     position: absolute;
-    width: 30%;
+    width: 38%;
     padding: 20px 40px 20px 40px;
     border-radius: 0px 10px 10px 0px;
     height: auto;
@@ -284,10 +284,12 @@ color: rgb(102, 102, 102);
     color: #CBCAB7;
 }
 .marco .cont-img{
+
     width: 100%;
 
 }
-.marco img{
+.cont-img img{
+
    width: auto;
     margin: 10px;
 
@@ -3323,7 +3325,7 @@ color: rgb(102, 102, 102);
 }
 
 .footer-quick-search {
-    margin-top: 35PX;
+    margin-top: 0PX;
     margin-bottom: 0PX;
     background: #292929 none repeat scroll 0 0;
     padding: 20px 0;
